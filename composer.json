@@ -1,0 +1,14 @@
+{
+    "name": "juicerframework/juice-mail",
+    "description": "Juicer Framework - mail component",
+    "type": "library",
+    "keywords": [
+        "juicer",
+        "mail"
+    ],
+    "homepage": "https://github.com/juicerframework/juicer-mail.git",
+    "license": "BSD-3-Clause",
+    "require": {
+        "php": "^5.5 || ^7.0"
+    }
+}
