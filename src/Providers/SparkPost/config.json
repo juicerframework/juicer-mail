@@ -1,0 +1,19 @@
+{
+    "packages": [
+        {
+            "name": "SparkPost PHP Library",
+            "package": "sparkpost/php-sparkpost",
+            "version": "dev-master",
+            "actions": [
+                {
+                    "script": "set_environment.php",
+                    "params": {
+                        "Key": "YOUR_APP_KEY"
+                    }
+                }
+            ]
+        }
+    ],
+    "require": []
+
+} 

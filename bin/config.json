@@ -1,0 +1,9 @@
+{
+    "providers": [{
+            "provider": "SparkPost",
+            "params": {
+                "Key": "YOUR_APP_KEY"
+            }
+        }]
+
+} 
