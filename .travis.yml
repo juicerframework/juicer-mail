@@ -6,3 +6,6 @@ php:
   
 before_install:
   - composer self-update
+ 
+after_success:
+  coveralls
