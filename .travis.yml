@@ -6,3 +6,6 @@ php:
   
 before_install:
   - composer self-update
+  - composer require codeclimate/php-test-reporter --dev
+  - phpunit --coverage-clover build/logs/clover.xml
+  - CODECLIMATE_REPO_TOKEN=612e1068c7bfdc5122637b55857b13b54ef1b48a0be8bedf509e1638e0210040 ./vendor/bin/test-reporter
