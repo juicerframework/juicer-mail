@@ -1,6 +1,6 @@
 {
-    "name": "juicerframework/juice-mail",
-    "description": "Juicer Framework - mail component",
+    "name": "juicerframework/juicer-mail",
+    "description": "Juicer Framework - Mail component",
     "type": "library",
     "keywords": [
         "juicer",
